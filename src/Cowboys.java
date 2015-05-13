@@ -1,4 +1,4 @@
 
-public class Cowboys {
+public class Cowboys extends Humains{
 
 }

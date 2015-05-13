@@ -1,4 +1,4 @@
 
-public class Dame {
+public class Dame extends Humains{
 
 }

@@ -1,4 +1,4 @@
 
-public class Brigand {
+public class Brigand extends Humains{
 
 }
