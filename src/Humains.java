@@ -20,13 +20,15 @@ public class Humains {
 	public void boire(){
 		System.out.println("Ah un bon verre de " + boissonFavorite + " ! GLOUPS !");
 	}
-	public String quleEstTonNom(){
+	public String quelEstTonNom(){
 		return nom;
 	}
 
+	public String quelEstTaBoissonFavorite(){
+		return boissonFavorite;
+	}
+
 	
-
-
 
 
 
