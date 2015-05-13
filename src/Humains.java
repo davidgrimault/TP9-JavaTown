@@ -1,6 +1,7 @@
 
 public class Humains {
 	private String nom;
+
 	private String boissonFavorite ="eau";
 	
 	public Humains(String unNom ,String uneBoissonFavorite){
@@ -12,11 +13,23 @@ public class Humains {
 		System.out.println(nom +" - "+ text);
 	}
 
-	public void presenter (){
-		System.err.println("Bonjour , je m'appelle "+ nom + " et moi boisson favorite est "+boissonFavorite+".");
+	public void presenter(){
+		System.out.println("Bonjour je m'apelle " + nom + " et ma boisson farovite est " + boissonFavorite + ".");
 	}
 	
-	public void boire (){
-		System.out.println("Ah un bon verre de "+boissonFavorite+" ! GLOUPS !");
+	public void boire(){
+		System.out.println("Ah un bon verre de " + boissonFavorite + " ! GLOUPS !");
 	}
+	public String quleEstTonNom(){
+		return nom;
+	}
+
+	
+
+
+
+
+
+
+	
 }
