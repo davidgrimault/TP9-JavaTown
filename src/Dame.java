@@ -8,18 +8,26 @@ public class Dame extends Humains{
 		couleurRobe=uneCouleurRobe;
 	}
 	
-	public String enlever(){
+	public void enlever(){
 		if (Etat == false){
 			Etat = true;
-			return "AAaaAAaaAAHH !! On m'enlève ! A l'aide.";
+			super.parle("AAaaAAaaAAHH !! On m'enlève ! A l'aide.");
 		}
 		else{
-			return "AAaaAAaaAAHH !! On m'enlève encore ! A l'aide.";
+			super.parle("AAaaAAaaAAHH !! On m'enlève encore ! A l'aide.");
 		}
 	}
 	
-	public String liberer (){
+	public void liberer (){
 		Etat = false;
-		return "AAaaahh !! , je te remrcie de m'avoir libéré";
+		super.parle("AAaaahh !! , merci " + super.quelEstTonNom() + " de m'avoir libérer");
+	}
+	
+	public void setCouleurRobe(String couleur){
+		couleurRobe = couleur ;
+	}
+	
+	public void afficheCouleur(){
+		super.parle("Regardez ma nouvelle robe " + couleurRobe + " !");
 	}
 }

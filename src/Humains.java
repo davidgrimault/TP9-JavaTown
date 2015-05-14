@@ -14,11 +14,11 @@ public class Humains {
 	}
 
 	public void presenter(){
-		System.out.println("Bonjour je m'apelle " + nom + " et ma boisson farovite est " + boissonFavorite + ".");
+		parle("Bonjour je m'apelle " + nom + " et ma boisson farovite est " + boissonFavorite + ".");
 	}
 	
 	public void boire(){
-		System.out.println("Ah un bon verre de " + boissonFavorite + " ! GLOUPS !");
+		parle("Ah un bon verre de " + boissonFavorite + " ! GLOUPS !");
 	}
 	public String quelEstTonNom(){
 		return nom;
